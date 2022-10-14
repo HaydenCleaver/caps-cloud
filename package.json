@@ -1,0 +1,27 @@
+{
+  "name": "caps-cloud",
+  "version": "1.0.0",
+  "description": "## caps-cloud",
+  "main": "vendor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node vendor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaydenCleaver/caps-cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaydenCleaver/caps-cloud/issues"
+  },
+  "homepage": "https://github.com/HaydenCleaver/caps-cloud#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1232.0",
+    "chance": "^1.1.8",
+    "sqs-consumer": "^5.7.0",
+    "sqs-producer": "^2.1.0"
+  }
+}
